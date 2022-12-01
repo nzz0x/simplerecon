@@ -11,7 +11,12 @@ Before to run simplerecon update the following attributes to reflect setup envir
 * **NUCLEI_TEMPLATES:** nuclei_templates path, by default ~/nuclei-templates/
 * **GO_BIN:** go/bin path where required patcked are, by default ~/go/bin
 ## Usage
-You can recon a single domain
+First of all, turns the **simplerecon.sh** file an executable
+```sh
+cd simplerecon
+chmod +x simplerecon.sh
+```
+And then, you can recon a single domain
 ```sh
 ./simplerecon.sh hackerone.com
 ```
